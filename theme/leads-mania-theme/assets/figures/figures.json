@@ -1,0 +1,32 @@
+{
+  "credits-pipeline": {
+    "alt": "Diagram showing that finding an email costs one Snov.io credit and verifying it costs another, so one usable verified contact costs about two credits.",
+    "caption": "How credits turn into usable contacts. One credit finds an address, a second verifies it — so a finished contact costs about two credits.",
+    "w": 800,
+    "h": 250
+  },
+  "cost-per-lead": {
+    "alt": "Bar chart of approximate cost per verified lead by Snov.io plan: about 8 cents on Starter falling to about 1.5 cents on the largest tier.",
+    "caption": "Approximate cost per verified contact, calculated as plan price ÷ half the credit allowance. Higher tiers are roughly five times cheaper per contact.",
+    "w": 800,
+    "h": 300
+  },
+  "verification-results": {
+    "alt": "Flow diagram of email verification outcomes: valid addresses are safe to send, invalid should be deleted, catch-all should be limited, and unknown should be retried rather than treated as valid.",
+    "caption": "What verification actually returns. Only \"valid\" is safe to send freely; catch-all and unknown are the two results that quietly damage deliverability.",
+    "w": 800,
+    "h": 330
+  },
+  "deliverability-stack": {
+    "alt": "Stack diagram showing four layers that decide inbox placement — SPF DKIM and DMARC authentication, domain warm-up, list quality, and engagement — with verification covering only the list quality layer.",
+    "caption": "Verification only fixes one layer. Inbox placement depends on authentication, warm-up, list quality and engagement together.",
+    "w": 800,
+    "h": 300
+  },
+  "email-patterns": {
+    "alt": "Table of common business email address patterns such as first.last and first initial plus last name, with an example address for each.",
+    "caption": "Reading a domain’s address pattern from one confirmed address is faster than guessing. Verify per address — patterns can differ by office.",
+    "w": 800,
+    "h": 280
+  }
+}
